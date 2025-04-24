@@ -1,4 +1,4 @@
-def birthday(s, d, m):
+  def birthday(s, d, m):
     count = 0
     for i in range(len(s) - 1 + m):
         count += int(sum(s[i:i+m]) == d)
